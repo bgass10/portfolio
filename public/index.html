@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="margin: 0">
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+		/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F77909;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7700;
+}
+	</style>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Brendan Gass</title>
+
+	<link rel='icon' type='image/png' href='/logo.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body style="background-color:black; margin: 0; padding: 0">
+	<script type="module">
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
+
+		const firebaseConfig = {
+		  apiKey: "AIzaSyA2-UHGteAP7s48Vg43vixkcRLcyC9MGbk",
+		  authDomain: "portfolio-f3b86.firebaseapp.com",
+		  projectId: "portfolio-f3b86",
+		  storageBucket: "portfolio-f3b86.appspot.com",
+		  messagingSenderId: "178613134290",
+		  appId: "1:178613134290:web:6d6b2cdbf5e21d4d211e0b",
+		  measurementId: "G-2F0HB6L5HT"
+		};
+	  
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+	  </script>
+</body>
+</html>
