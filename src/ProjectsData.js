@@ -1,5 +1,12 @@
 
  export let projects = [
+  {
+    title: "Gebhart Photography",
+    img: "https://user-images.githubusercontent.com/29387796/161881612-14f77d76-2003-4f1b-845c-63741909d149.png",
+    desc: "A portfolio webiste to showcase photographs taken by Gebhart Photography.",
+    gitSrc: false,
+    src: "https://mikaylaphotographyportfolio.web.app/",
+  },
     {
       title: "Project M.O.O.N",
       img: "https://img.itch.zone/aW1nLzI4MDExNjkucG5n/original/X5O7SX.png",

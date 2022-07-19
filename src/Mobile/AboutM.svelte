@@ -3,7 +3,7 @@
   <img src="avatar.png" alt="Avatar" />
   <p>
     I am passionate about creating front-end web and mobile applications. I am
-    currently seeking an internship for the summer of 2022 in the Columbus area
+    currently seeking an internship for the summer of 2023 in the Columbus area
     or remotely.
   </p>
   <p>
