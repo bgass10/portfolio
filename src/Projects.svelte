@@ -8,42 +8,29 @@
   <h1>Projects</h1>
   <div class="row">
     {#each projects as project}
-      <div class="container">
-        <img src={project.img} alt={project.desc} class="project" />
-        <div class="overlayThru" />
-        <div class="overlay">
-          <div class="col">
-            <div class="title">{project.title}</div>
-
-            <div class="description">{project.desc}</div>
-          </div>
-          <div class="iconRow">
-            {#if project.gitSrc != false}
-              <a
-                href={project.gitSrc}
-                alt="Link to project code."
-                target="_blank"
-              >
-                <Icon
-                  class="icon"
-                  icon="bx:bx-code-alt"
-                  height="32"
-                  hFlip={true}
-                  style="margin: 10px"
-                /></a
-              >
-            {/if}
-
-            <a href={project.src} alt="Link to project." target="_blank">
+      <div class="project">
+        <h2>{project.title}</h2>
+        <p>{project.desc}</p>
+        <div class="iconRow">
+          {#if project.gitSrc != false}
+            <a
+              href={project.gitSrc}
+              alt="Link to project code."
+              target="_blank"
+            >
               <Icon
                 class="icon"
-                icon="bx:bx-expand-alt"
+                icon="eva:github-outline"
+                color="white"
                 height="26"
-                hFlip={false}
-                style="margin: 10px"
               />
             </a>
-          </div>
+          {/if}
+          {#if project.src != false}
+            <a href={project.src} alt="Link to project." target="_blank">
+              <Icon icon="fluent:open-20-filled" color="white" height="28" />
+            </a>
+          {/if}
         </div>
       </div>
     {/each}
@@ -63,73 +50,37 @@
     margin-top: 1.2vh;
     margin-bottom: 2.4vh;
   }
+  h2 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.6vw;
+    margin-bottom: 0;
+  }
+  p {
+    color: white;
+    font-family: Montserrat;
+    font-size: 0.93vw;
+  }
   .row {
     display: flex;
     margin-top: 1.2vh;
     flex-wrap: wrap;
   }
-  .col {
-    display: flex;
-    flex-direction: column;
+  .iconRow {
+    justify-self: baseline;
   }
-  .title {
-    color: white;
-    text-align: center;
-    font-size: 1.6vw;
-    opacity: 1;
-    font-family: Montserrat;
-    margin-top: 2.4vh;
-  }
-  .description {
-    color: white;
-    text-align: center;
-    font-size: 0.93vw;
-    opacity: 1;
-    font-family: Montserrat;
-    margin-left: 0.6vw;
-    margin-right: 0.6vw;
-    margin-top: 0.6vh;
-  }
-
-  .container {
-    width: 21.5vw;
-    height: 26vh;
-    margin-bottom: 2.25vw;
-    margin-right: auto;
-  }
-
   .project {
-    width: 100%;
-    height: 100%;
-    border-radius: 7%;
-  }
-
-  .overlayThru {
-    transform: translateY(-26.5vh);
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.3s ease;
-    border-radius: 7%;
-    background-color: #f77909;
-  }
-  .overlay {
-    transform: translateY(-53vh);
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease;
-    border-radius: 7%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
+    align-items: flex-start;
+    width: 20vw;
 
-  .container:hover .overlayThru {
-    opacity: 0.8;
-  }
-  .container:hover .overlay {
-    opacity: 1;
+    margin-bottom: 2.25vw;
+    padding-bottom: 1vw;
+    padding-left: 1.5vw;
+    margin-right: auto;
+    background-color: #131313;
+    border-radius: 4%;
   }
   .iconRow {
     display: flex;
@@ -137,9 +88,6 @@
     align-items: center;
   }
   div :global(.icon) {
-    color: rgb(243, 243, 243);
-  }
-  div :global(.icon):hover {
-    color: white;
+    margin-right: 1.3vw;
   }
 </style>

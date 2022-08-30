@@ -41,18 +41,9 @@
 	<script type="module">
 		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
 		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
-
-		const firebaseConfig = {
-		  apiKey: "AIzaSyA2-UHGteAP7s48Vg43vixkcRLcyC9MGbk",
-		  authDomain: "portfolio-f3b86.firebaseapp.com",
-		  projectId: "portfolio-f3b86",
-		  storageBucket: "portfolio-f3b86.appspot.com",
-		  messagingSenderId: "178613134290",
-		  appId: "1:178613134290:web:6d6b2cdbf5e21d4d211e0b",
-		  measurementId: "G-2F0HB6L5HT"
-		};
+		import {config} from "./config.js";
 	  
-		const app = initializeApp(firebaseConfig);
+		const app = initializeApp(config);
 		const analytics = getAnalytics(app);
 	  </script>
 </body>

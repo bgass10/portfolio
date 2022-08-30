@@ -1,17 +1,29 @@
 
  export let projects = [
   {
+    title: "Graph Traversal Visualizer",
+    desc: "An interactive webpage to visualize DFS and BFS grapg algorithms made with Svelte and P5.",
+    gitSrc: "https://github.com/bgass10/graph_traversal_visualizer",
+    src: "https://graph-traversal-visualizer.web.app/",
+  },
+  {
+    title: "Live Chat App",
+    desc: "A live chat mobile application built with Flutter and Firebase.",
+    gitSrc: "https://github.com/bgass10/live_chat_app",
+    src: false,
+  },
+  {
     title: "Gebhart Photography",
     img: "https://user-images.githubusercontent.com/29387796/161881612-14f77d76-2003-4f1b-845c-63741909d149.png",
     desc: "A portfolio webiste to showcase photographs taken by Gebhart Photography.",
-    gitSrc: false,
+    gitSrc: "https://github.com/bgass10/photography_portfolio",
     src: "https://mikaylaphotographyportfolio.web.app/",
   },
     {
       title: "Project M.O.O.N",
       img: "https://img.itch.zone/aW1nLzI4MDExNjkucG5n/original/X5O7SX.png",
       desc: "A 2D platformer where you play as an astronaut who is the lone survivor of a spaceship crash made using the Unity game engine.",
-      gitSrc: false,
+      gitSrc: "https://github.com/bgass10/Project-M.O.O.N",
       src: "https://brendangass.itch.io/project-moon",
     },
     {

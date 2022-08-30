@@ -15,7 +15,7 @@
   <div class="row">
     <div class="skill">
       <h3 class="symbolL">&lt;</h3>
-      <h3>Java</h3>
+      <h3>Flutter</h3>
       <h3 class="symbolM">/</h3>
       <h3 class="symbolR">&gt;</h3>
     </div>

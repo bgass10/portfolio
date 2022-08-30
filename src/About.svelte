@@ -1,5 +1,5 @@
 <script>
-  const skills = ["Java", "JavaScript", "Python", "Svelte", "React Native"];
+  const skills = ["Flutter", "JavaScript", "Python", "Svelte", "Java"];
 </script>
 
 <section id="about" class="main">

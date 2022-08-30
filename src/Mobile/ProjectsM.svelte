@@ -20,9 +20,11 @@
             />
           </a>
         {/if}
-        <a href={project.src} alt="Link to project." target="_blank">
-          <Icon icon="fluent:open-20-filled" color="white" height="28" />
-        </a>
+        {#if project.src != false}
+          <a href={project.src} alt="Link to project." target="_blank">
+            <Icon icon="fluent:open-20-filled" color="white" height="28" />
+          </a>
+        {/if}
       </div>
     </div>
   {/each}
