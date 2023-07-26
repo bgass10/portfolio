@@ -3,8 +3,8 @@
   <img src="avatar.png" alt="Avatar" />
   <p>
     I am passionate about creating front-end web and mobile applications. I am
-    currently seeking an internship for the summer of 2023 in the Columbus area
-    or remotely.
+    currently seeking a full time software engineering role beginning summer
+    2024.
   </p>
   <p>
     Aside from development I am a member of the Ohio State Cheerleading team
@@ -29,7 +29,7 @@
   <div class="row">
     <div class="skill">
       <h3 class="symbolL">&lt;</h3>
-      <h3>Python</h3>
+      <h3>SwiftUI</h3>
       <h3 class="symbolM">/</h3>
       <h3 class="symbolR">&gt;</h3>
     </div>

@@ -1,5 +1,5 @@
 <script>
-  const skills = ["Flutter", "JavaScript", "Python", "Svelte", "Java"];
+  const skills = ["SwiftUI", "Flutter", "JavaScript", "Python", "Svelte"];
 </script>
 
 <section id="about" class="main">
@@ -13,8 +13,8 @@
     <div>
       <p>
         I am passionate about creating front-end web and mobile applications. I
-        am currently seeking an internship for the summer of 2023 in the
-        Columbus area or remotely.
+        am currently seeking a full time software engineering role beginning
+        summer 2024.
       </p>
       <p>
         Aside from development I am a member of the Ohio State Cheerleading team

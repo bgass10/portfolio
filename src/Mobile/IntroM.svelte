@@ -12,7 +12,7 @@
       <h2>Hello, my name is</h2>
       <h1>Brendan Gass</h1>
       <h3>
-        I am a third year student studying computer science and engineering at
+        I am a graduating senior studying computer science and engineering at
         the Ohio State University.
       </h3>
     </div>
